@@ -1,0 +1,110 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "vs-nomo-dark",
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.configureOnOpen": true,
+    "editor.suggestSelection": "first",
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\Bryan\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\Bryan\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\Bryan\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+
+      "terminal.integrated.profiles.osx": {
+        "zsh": {
+          "path": "/bin/zsh", // your path here
+          "args": ["-l"]
+        }
+      },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "sqlDatabaseProjects.netCoreDowngradeDoNotShow": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "git.autofetch": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "yaml": false,
+      "rust": false
+    },
+    "remote.SSH.remotePlatform": {
+        "Linode": "linux"
+    },
+    "arduino.useArduinoCli": true,
+    "vim.commandLineModeKeyBindings": [
+
+    ],
+    "vim.enableNeovim": true,
+    "vim.leader": " ",
+    "vim.neovimUseConfigFile": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["<space>"],
+          "commands": ["workbench.action.files.save"]
+        },
+        {
+          "before": ["<leader>", "w"],
+          "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["<leader>", "t"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+          },
+          {
+            "before": ["<leader>", "f"],
+            "commands": [ "revealInExplorer" ],
+          },
+          {
+            "before": ["<leader>", "r", "f"],
+            "commands": [ "fileutils.renameFile" ]
+          }
+      ],
+      "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j","k"],
+            "after": ["<Esc>"]
+        },        
+      ],
+      "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+      },
+      "settingsSync.ignoredExtensions": [
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-wsl"
+      ],
+      "code-runner.runInTerminal": true,
+      "workbench.editorAssociations": {
+        "*.html": "default"
+      },
+      "git.alwaysSignOff": true,
+      "git.enableCommitSigning": true,
+      "codeium.enableConfig": {
+        "*": true,
+        "ignore": true,
+        "plaintext": true,
+        "markdown": true,
+        "code-runner-output": true,
+        "toml": false
+      },
+      "editor.inlineSuggest.suppressSuggestions": true
+      
+}
