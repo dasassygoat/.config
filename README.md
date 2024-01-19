@@ -1,2 +1,2 @@
 # .config
-Need to work out gettiung .zshrc & hosts file ideally
+Need to work out loading .zshrc & hosts file ideally
